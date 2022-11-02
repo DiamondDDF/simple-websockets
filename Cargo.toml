@@ -1,0 +1,17 @@
+[package]
+name = "ddf-simple-websockets"
+version = "0.1.4"
+authors = ["Flying-Toast","DiamondDDF"]
+edition = "2021"
+license = "MIT"
+description = "Fast and efficient WebSocket server with an easy API. 'simple-websockets' quit compiling properly hence this fork."
+homepage = "https://github.com/Flying-Toast/simple-websockets"
+repository = "https://github.com/DiamondDDF/ddf-simple-websockets""
+keywords = ["websocket", "web", "async", "server", "network"]
+categories = ["web-programming::websocket", "web-programming", "network-programming", "concurrency", "asynchronous"]
+
+[dependencies]
+tokio-tungstenite = "0.17"
+tokio = { version = "1.3", features = ["full"] }
+futures-util = "0.3"
+flume = "0.10"
