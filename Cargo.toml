@@ -6,7 +6,7 @@ edition = "2021"
 license = "MIT"
 description = "Fast and efficient WebSocket server with an easy API. 'simple-websockets' quit compiling properly hence this fork."
 homepage = "https://github.com/Flying-Toast/simple-websockets"
-repository = "https://github.com/DiamondDDF/ddf-simple-websockets""
+repository = "https://github.com/DiamondDDF/ddf-simple-websockets"
 keywords = ["websocket", "web", "async", "server", "network"]
 categories = ["web-programming::websocket", "web-programming", "network-programming", "concurrency", "asynchronous"]
 
